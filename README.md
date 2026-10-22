@@ -1,6 +1,6 @@
-# 互联网外包劳动维权 Skill
+# 外包劳动维权工具包（laowei-kit）
 
-> 已安装到 `~/.workbuddy/skills/it-outsourcing-labor-rights/`，对话中直接描述案情即可自动触发。
+> 已安装到 `~/.workbuddy/skills/laowei-kit/`，对话中直接描述案情即可自动触发。
 > 本目录是同一份内容的**可读副本**，方便你查看、修改和分享。
 
 ---
@@ -60,7 +60,7 @@ S6 谈判与执行        → 开口激进档，落点合理档，底线保守�
 ## 四、计算器与自测
 
 ```bash
-cd ~/.workbuddy/skills/it-outsourcing-labor-rights/scripts
+cd ~/.workbuddy/skills/laowei-kit/scripts
 
 python3 calc.py --demo              # 看输出格式
 python3 calc.py --config case.json  # 按 DEMO 结构写自己的案件 JSON
@@ -84,7 +84,7 @@ python3 test_calc.py                # ⭐ 回归测试（21 项，含真实判�
 
 
 ```bash
-cd ~/.workbuddy/skills/it-outsourcing-labor-rights/scripts
+cd ~/.workbuddy/skills/laowei-kit/scripts
 
 python3 calc.py --demo              # 看输出格式
 python3 calc.py --config case.json  # 按 DEMO 结构写自己的案件 JSON

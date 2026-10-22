@@ -3,7 +3,7 @@
 # 用法：bash install.sh
 set -e
 SRC="$(cd "$(dirname "$0")" && pwd)"
-NAME="it-outsourcing-labor-rights"
+NAME="laowei-kit"
 DEST="${1:-$HOME/.workbuddy/skills/$NAME}"
 
 mkdir -p "$(dirname "$DEST")"
